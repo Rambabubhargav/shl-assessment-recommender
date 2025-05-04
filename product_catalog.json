@@ -1,20 +1,212 @@
 [
   {
-    "id": "A1",
-    "name": "Cognitive Ability Test",
-    "skills": ["reasoning", "logic", "problem-solving"],
-    "roles": ["analyst", "developer", "engineer"]
+    "assessment_id": "SHL001",
+    "title": "Python Developer Test",
+    "description": "Assesses knowledge of Python programming, data structures, and algorithms.",
+    "skills_measured": ["Python", "Data Structures", "Algorithms"],
+    "domain": "Backend"
   },
   {
-    "id": "A2",
-    "name": "Communication Skills Test",
-    "skills": ["communication", "grammar"],
-    "roles": ["trainer", "sales", "customer support"]
+    "assessment_id": "SHL002",
+    "title": "Java Full Stack Developer Test",
+    "description": "Evaluates skills in Java, Spring Boot, HTML, and CSS for full-stack development.",
+    "skills_measured": ["Java", "Spring Boot", "HTML", "CSS", "JavaScript"],
+    "domain": "Full Stack"
   },
   {
-    "id": "A3",
-    "name": "Python Programming Test",
-    "skills": ["python", "programming", "logic"],
-    "roles": ["developer", "data scientist"]
+    "assessment_id": "SHL003",
+    "title": "Frontend Developer Test",
+    "description": "Tests proficiency in HTML, CSS, JavaScript, and frontend frameworks.",
+    "skills_measured": ["HTML", "CSS", "JavaScript", "React"],
+    "domain": "Frontend"
+  },
+  {
+    "assessment_id": "SHL004",
+    "title": "Data Analyst Test",
+    "description": "Evaluates ability to analyze data, use SQL, and draw insights.",
+    "skills_measured": ["SQL", "Data Analysis", "Statistics"],
+    "domain": "Data"
+  },
+  {
+    "assessment_id": "SHL005",
+    "title": "Machine Learning Engineer Test",
+    "description": "Tests knowledge of ML algorithms, Python libraries, and modeling techniques.",
+    "skills_measured": ["Python", "Pandas", "Scikit-learn", "Machine Learning"],
+    "domain": "AI/ML"
+  },
+  {
+    "assessment_id": "SHL006",
+    "title": "Cloud Engineer Test",
+    "description": "Evaluates understanding of AWS cloud services and infrastructure management.",
+    "skills_measured": ["AWS", "EC2", "S3", "Cloud Security"],
+    "domain": "Cloud"
+  },
+  {
+    "assessment_id": "SHL007",
+    "title": "DevOps Engineer Test",
+    "description": "Assesses knowledge of CI/CD pipelines, Docker, Kubernetes, and monitoring tools.",
+    "skills_measured": ["CI/CD", "Docker", "Kubernetes", "Monitoring"],
+    "domain": "DevOps"
+  },
+  {
+    "assessment_id": "SHL008",
+    "title": "SQL Developer Test",
+    "description": "Tests advanced SQL querying, indexing, and optimization.",
+    "skills_measured": ["SQL", "MySQL", "Database Design"],
+    "domain": "Backend"
+  },
+  {
+    "assessment_id": "SHL009",
+    "title": "React Developer Test",
+    "description": "Assesses knowledge of React components, state management, and hooks.",
+    "skills_measured": ["React", "JavaScript", "Redux"],
+    "domain": "Frontend"
+  },
+  {
+    "assessment_id": "SHL010",
+    "title": "Node.js Backend Test",
+    "description": "Evaluates skills in server-side development using Node.js and Express.",
+    "skills_measured": ["Node.js", "Express", "MongoDB"],
+    "domain": "Backend"
+  },
+  {
+    "assessment_id": "SHL011",
+    "title": "Cybersecurity Test",
+    "description": "Tests understanding of network security, vulnerabilities, and ethical hacking.",
+    "skills_measured": ["Cybersecurity", "Penetration Testing", "Firewalls"],
+    "domain": "Security"
+  },
+  {
+    "assessment_id": "SHL012",
+    "title": "C++ Developer Test",
+    "description": "Assesses proficiency in C++ programming and object-oriented design.",
+    "skills_measured": ["C++", "OOP", "STL"],
+    "domain": "Systems"
+  },
+  {
+    "assessment_id": "SHL013",
+    "title": "Android Developer Test",
+    "description": "Tests ability to build mobile applications using Android and Kotlin.",
+    "skills_measured": ["Kotlin", "Android SDK", "UI/UX"],
+    "domain": "Mobile"
+  },
+  {
+    "assessment_id": "SHL014",
+    "title": "iOS Developer Test",
+    "description": "Evaluates development skills in Swift and iOS ecosystem.",
+    "skills_measured": ["Swift", "iOS", "Xcode"],
+    "domain": "Mobile"
+  },
+  {
+    "assessment_id": "SHL015",
+    "title": "Software Testing Test",
+    "description": "Tests knowledge in manual and automated software testing techniques.",
+    "skills_measured": ["Manual Testing", "Automation", "Selenium"],
+    "domain": "QA"
+  },
+  {
+    "assessment_id": "SHL016",
+    "title": "Business Analyst Test",
+    "description": "Assesses ability to interpret business requirements and model solutions.",
+    "skills_measured": ["Requirement Analysis", "Documentation", "Stakeholder Communication"],
+    "domain": "Business"
+  },
+  {
+    "assessment_id": "SHL017",
+    "title": "ETL Developer Test",
+    "description": "Evaluates understanding of ETL pipelines, data cleaning, and transformation.",
+    "skills_measured": ["ETL", "Data Warehousing", "SQL"],
+    "domain": "Data"
+  },
+  {
+    "assessment_id": "SHL018",
+    "title": "Power BI Developer Test",
+    "description": "Tests proficiency in creating dashboards and visualizations with Power BI.",
+    "skills_measured": ["Power BI", "DAX", "Visualization"],
+    "domain": "Data"
+  },
+  {
+    "assessment_id": "SHL019",
+    "title": "Scrum Master Test",
+    "description": "Assesses knowledge of Agile methodologies and scrum ceremonies.",
+    "skills_measured": ["Agile", "Scrum", "Team Facilitation"],
+    "domain": "Management"
+  },
+  {
+    "assessment_id": "SHL020",
+    "title": "Product Manager Test",
+    "description": "Evaluates ability to define product strategy and collaborate with teams.",
+    "skills_measured": ["Roadmapping", "Stakeholder Management", "Metrics"],
+    "domain": "Product"
+  },
+  {
+    "assessment_id": "SHL021",
+    "title": "Linux Administrator Test",
+    "description": "Tests Linux OS knowledge, command-line, and server configuration skills.",
+    "skills_measured": ["Linux", "Shell Scripting", "System Administration"],
+    "domain": "IT"
+  },
+  {
+    "assessment_id": "SHL022",
+    "title": "Networking Test",
+    "description": "Assesses understanding of TCP/IP, routing, and network troubleshooting.",
+    "skills_measured": ["Networking", "TCP/IP", "Firewall", "Switches"],
+    "domain": "IT"
+  },
+  {
+    "assessment_id": "SHL023",
+    "title": "Data Engineer Test",
+    "description": "Tests skills in building data pipelines using big data tools.",
+    "skills_measured": ["Python", "Spark", "Hadoop", "SQL"],
+    "domain": "Data"
+  },
+  {
+    "assessment_id": "SHL024",
+    "title": "AI Researcher Test",
+    "description": "Evaluates theoretical knowledge of AI models and research techniques.",
+    "skills_measured": ["NLP", "Deep Learning", "Python"],
+    "domain": "AI/ML"
+  },
+  {
+    "assessment_id": "SHL025",
+    "title": "Web Developer Test",
+    "description": "Assesses end-to-end website development skills.",
+    "skills_measured": ["HTML", "CSS", "JavaScript", "Bootstrap"],
+    "domain": "Frontend"
+  },
+  {
+    "assessment_id": "SHL026",
+    "title": "Salesforce Developer Test",
+    "description": "Tests Apex, Visualforce, and Salesforce platform expertise.",
+    "skills_measured": ["Salesforce", "Apex", "CRM"],
+    "domain": "CRM"
+  },
+  {
+    "assessment_id": "SHL027",
+    "title": "UI/UX Designer Test",
+    "description": "Assesses visual design, wireframing, and prototyping skills.",
+    "skills_measured": ["Figma", "Wireframes", "User Research"],
+    "domain": "Design"
+  },
+  {
+    "assessment_id": "SHL028",
+    "title": "Chatbot Developer Test",
+    "description": "Tests ability to build bots using NLP and frameworks.",
+    "skills_measured": ["Rasa", "Dialogflow", "Python"],
+    "domain": "AI/ML"
+  },
+  {
+    "assessment_id": "SHL029",
+    "title": "Big Data Engineer Test",
+    "description": "Evaluates big data platform usage and data lake management.",
+    "skills_measured": ["Hadoop", "Spark", "Kafka"],
+    "domain": "Data"
+  },
+  {
+    "assessment_id": "SHL030",
+    "title": "Game Developer Test",
+    "description": "Assesses game engine proficiency and graphics rendering skills.",
+    "skills_measured": ["Unity", "C#", "Game Design"],
+    "domain": "Gaming"
   }
 ]
