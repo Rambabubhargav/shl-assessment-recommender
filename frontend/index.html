@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SHL Assessment Recommender</title>
+</head>
+<body>
+  <h2>Assessment Recommender</h2>
+  <input id="role" placeholder="Enter job role">
+  <button onclick="getRecs()">Recommend</button>
+  <ul id="results"></ul>
+
+  <script>
+    async function getRecs() {
+      const role = document.getElementById("role").value;
+      const response = await fetch("https://your-api-url.onrender.com/recommend?role=" + role);
+      const data = await response.json();
+      const list = document.getElementById("results");
+      list.innerHTML = "";
+      data.forEach(item => {
+        const li = document.createElement("li");
+        li.textContent = `${item.name} [Score: ${item.score}]`;
+        list.appendChild(li);
+      });
+    }
+  </script>
+</body>
+</html>
