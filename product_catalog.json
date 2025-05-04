@@ -1,0 +1,20 @@
+[
+  {
+    "id": "A1",
+    "name": "Cognitive Ability Test",
+    "skills": ["reasoning", "logic", "problem-solving"],
+    "roles": ["analyst", "developer", "engineer"]
+  },
+  {
+    "id": "A2",
+    "name": "Communication Skills Test",
+    "skills": ["communication", "grammar"],
+    "roles": ["trainer", "sales", "customer support"]
+  },
+  {
+    "id": "A3",
+    "name": "Python Programming Test",
+    "skills": ["python", "programming", "logic"],
+    "roles": ["developer", "data scientist"]
+  }
+]
